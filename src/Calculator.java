@@ -1,4 +1,3 @@
-package dadaAssignment;
 
 import java.util.Scanner;
 
@@ -65,7 +64,7 @@ public class Calculator {
 		//Calculator c1 = new Calculator();
 		//Calculator c2 = new Calculator();
 		Scanner sc = new Scanner(System.in);
-		
+		System.out.println("Welcome To My Calculator...");
 		System.out.print("Enter first value: ");
 		c.setValue1(sc.nextInt());
 		
@@ -78,10 +77,7 @@ public class Calculator {
 		int operationId = sc.nextInt();
 		
 		c.getResult(operationId);
-		Calculator.test(2);
-		
-		
-			
+		Calculator.test(2);		
 
 	}
 
