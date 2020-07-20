@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Calculator {
 	
+	//My Calculator class
+	
 	private int value1, value2;
 	int result;
 	
