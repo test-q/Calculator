@@ -53,6 +53,9 @@ public class Calculator {
 			result = value1 % value2;
 			System.out.println("Modulus of " + value1 + " and " + value2 +" : " + result);
 			break;
+		case 6:
+			result = (int) Math.pow(value1, value2);
+			System.out.println("Power of " + value1 + "and " + value2 + " : " + result);
 		default :
 			System.out.println("Please Enter valid opration number");
 		
@@ -75,7 +78,7 @@ public class Calculator {
 		c.setValue2(sc.nextInt());
 		
 		System.out.println("Please select operation");
-		System.out.println("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modulus");
+		System.out.println("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modulus\n6. Power");
 		int operationId = sc.nextInt();
 		
 		c.getResult(operationId);
